@@ -97,6 +97,10 @@ li {
     cursor: pointer;
 }
 
+.menu li:hover{
+    color: var(--soft-red);
+}
+
 @media (max-width: 768px){
     .menu {
         position: fixed;
@@ -218,6 +222,11 @@ li {
   outline: none;
   border: none;
   margin: 10px 0;
+  cursor: pointer;
+}
+
+.main-desc button:hover{
+    background-color: var(--very-dark-blue);
 }
 
 /* Aside */
@@ -258,6 +267,11 @@ li {
 .aside-content h3 {
   font-size: larger;
   color: var(--grayish-blue);
+  cursor: pointer;
+}
+
+.aside-content h3:hover{
+    color: var(--soft-orange);
 }
 
 .aside-content p {
@@ -316,6 +330,11 @@ li {
   color: var(--very-dark-blue);
   font-weight: var(--extra-bold);
   font-size: 18px;
+  cursor: pointer;
+}
+
+.below-card-content h4:hover{
+    color: var(--soft-red);
 }
 
 .below-card-content p {
